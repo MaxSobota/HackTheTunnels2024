@@ -5,12 +5,12 @@
   width: 100%;
   display: flex;
   align-items: center;
-  height: 3rem;
+  height: auto;
   background-color: $theme;
   gap: 2rem;
 
   img {
-    height: 1rem;
+    height: 3rem;
   }
 
   &__seperator {
@@ -24,5 +24,21 @@
     font-family: "Roboto", sans-serif;
     color: white;
     font-size: 1.6rem;
+  }
+
+  @keyframes example {
+    0% {left: 0px;}
+    50% {left: 40%;}
+    100% {left: 0px;}
+  }
+
+  &__subway {
+    img{
+      height: 10em;
+    }
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
   }
 }
