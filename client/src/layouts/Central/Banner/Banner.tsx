@@ -1,11 +1,11 @@
 import "./Banner.style.scss";
 
-function Banner() {
+function Banner() { // Edited banner image for challenge 3
   return (
     <div className="Banner">
-      <img src="/carleton_logo.png" alt="logo" />
+      <img src="/nerd.png" alt="nerd" />
       <div className="Banner__seperator"></div>
-      <div className="Banner__title">Carleton Central</div>
+      <div className="Banner__title">Carleton's Least User Friendly Site</div>
     </div>
   );
 }

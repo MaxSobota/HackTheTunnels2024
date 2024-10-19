@@ -22,10 +22,11 @@ function Central({ title, children }: Props) {
         <div className="Central__page__content">{children}</div>
         <Divider />
         <div className="Central__page__footer">
-          <div className="Central__page__footer__release">Release: 8.10.1</div>
+          <div className="Central__page__footer__release">Release: This website old AF</div>
           <div className="Central__page__footer__copyright">
-            © 2024 Ellucian Company L.P. and its affiliates.
+            © 2024 Max Sobota and nobody else &#128514;
           </div>
+          <div className="Central__page__footer__funny1">I would consider this footer improved</div>
         </div>
       </div>
     </Base>

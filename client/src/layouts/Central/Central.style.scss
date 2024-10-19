@@ -19,7 +19,6 @@
 
     &__footer {
       font-weight: bold;
-      font-size: 80%;
       text-align: left;
 
       &__release {
@@ -28,6 +27,49 @@
 
       &__copyright {
         margin-top: 1.67rem;
+      }
+      //test
+      &__funny1 {// Sometimes works sometimes doesn't???
+        font-size: 10em;
+      }
+    }
+  }
+  @media (prefers-color-scheme: dark) { // Works for dark mode, challenge 7
+    &__page {
+      color: orange;
+      background-color: black;
+      height: 100vh;
+      margin-left: 1%;
+      margin-right: 2%;
+      font-style: normal;
+      font-family:
+        verdana,
+        arial narrow,
+        helvetica,
+        sans-serif;
+  
+      &__title {
+        margin-top: 1.67rem;
+        margin-bottom: 1.5rem;
+        font-weight: normal;
+        font-size: 1.3em;
+      }
+  
+      &__footer {
+        font-weight: bold;
+        text-align: left;
+  
+        &__release {
+          text-transform: uppercase;
+        }
+  
+        &__copyright {
+          margin-top: 1.67rem;
+        }
+        //test
+        &__funny1 {// Sometimes works sometimes doesn't???
+          font-size: 10em;
+        }
       }
     }
   }
